@@ -1,0 +1,111 @@
+.leave-history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.leave-history img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+}
+
+.leave-history-content {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the content */
+}
+
+.leave-history h2 {
+  text-align: center;
+  color: #2196f3; /* Blue for headings */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.leave-history form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.leave-history input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #2196f3;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.leave-history input[type="text"]:focus {
+  border-color: #64b5f6;
+}
+
+.leave-history button {
+  padding: 10px 20px;
+  background-color: #2196f3; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.leave-history button:hover {
+  background-color: #64b5f6;
+}
+
+.leave-history table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: white; /* White table background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leave-history th,
+.leave-history td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.leave-history th {
+  background-color: #2196f3; /* Blue background for table header */
+  color: white;
+}
+
+.leave-history td {
+  color: #333;
+}
+
+.leave-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leave-history p {
+  text-align: center;
+}
+
+.leave-history p.error {
+  color: red;
+}
+
+.leave-history p.loading {
+  color: #2196f3; /* Blue for loading text */
+}

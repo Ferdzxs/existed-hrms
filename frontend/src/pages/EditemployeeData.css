@@ -1,0 +1,102 @@
+/* EditemployeeData.css */
+
+.edit-employee-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+}
+
+.edit-employee-container h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 32px;
+  margin: 20px;
+  
+}
+
+.edit-employee-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-employee-container label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  
+}
+.edit-employee-container input{
+  background-color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+select {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+input[type="date"] {
+  width: 38%;
+}
+.edit-employee-container button {
+  padding: 10px 15px;
+  background-color: rgb(14, 106, 236);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-employee-container button:hover {
+  background-color: #007bff; /* Darker shade on hover */
+}
+
+.edit-employee-container button[type="button"] {
+  background-color: #a1bbfa; /* Different shade for button */
+  color: #666;
+}
+
+.edit-employee-container button[type="button"]:hover {
+  background-color: #46a0fa; /* Darker shade on hover */ 
+}
+
+.edit-employee-container span {
+  margin-top: 5px;
+  color: #050505;
+}
+
+
+.btn-edit{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  
+}
+.btn-edit:hover{
+  background-color: #0056b3;
+}
+
+.form-label{
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,112 @@
+/* Container for the whole form */
+.leave-application {
+  width: 600px;
+  margin: 120px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 139, 0.1);
+}
+
+/* Header Section */
+.leave-application .header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 555px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 139, 0.2);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.leave-application .header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #003366;
+}
+
+.leave-application .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.leave-application .profile-btn,
+.my-leaves-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0073e6;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.leave-application .profile-btn:hover,
+.my-leaves-btn:hover {
+  background-color: #005bb5;
+}
+
+/* Form styling */
+.leave-application .leave-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 139, 0.2);
+}
+
+.leave-application .leave-form h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.leave-application .leave-form label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+  color: #003366;
+}
+
+.leave-application .leave-form input,
+.leave-form select,
+.leave-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #0073e6;
+  font-size: 14px;
+  background-color: #f0f8ff;
+}
+
+.leave-application .leave-form select {
+  cursor: pointer;
+}
+
+.leave-application .leave-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.leave-application .submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0073e6;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.leave-application .submit-btn:hover {
+  background-color: #005bb5;
+}
